@@ -1,24 +1,208 @@
-body {
-  background-color: #fbc547;
-  color: #333;
-  font-family: -apple-system, BlinkMacSystemFont, "Avenir Next", "Avenir",
-    "Segoe UI", "Lucida Grande", "Helvetica Neue", "Helvetica", "Fira Sans",
-    "Roboto", "Noto", "Droid Sans", "Cantarell", "Oxygen", "Ubuntu",
-    "Franklin Gothic Medium", "Century Gothic", "Liberation Sans", sans-serif;
-  padding: 18vh 1rem;
-  text-align: center;
+$primary-color: #163343;
+$secondary-color: #e3e9ed;
+$third-color: #1f485f;
+$base-spacing: 1em;
+$small-spacing: $base-spacing / 2;
+$xsmall-spacing: $base-spacing / 4;
+$base-font-size: 13px;
+
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:400,700");
+
+* {
+  box-sizing: border-box;
 }
 
-a {
-  color: rgba(#000, 0.7);
+html {
+  font-size: $base-font-size;
+}
 
-  &:focus,
-  &:hover {
-    color: rgba(#000, 0.6);
+body {
+  margin: 0;
+  font-family: "Open Sans", sans-serif;
+}
+
+.container {
+  max-width: 19cm;
+  margin: 0 auto;
+}
+
+.banner {
+  background: $primary-color;
+  color: #f0f0f0;
+  padding: $base-spacing;
+
+  .banner-flex {
+    align-items: center;
+    display: flex;
+  }
+
+  img {
+    height: 150px;
+    border-radius: 5px;
+    border: 2px solid white;
+    object-fit: cover;
+    width: 120px;
+  }
+
+  .main-informations {
+    margin: 0 $base-spacing;
+
+    p {
+      align-items: center;
+      display: flex;
+
+      i {
+        font-size: 1em;
+        margin-right: $xsmall-spacing;
+      }
+    }
+  }
+
+  .full-name {
+    margin-top: 0;
+    color: #d0d0d0;
+    font-size: 1.3em;
+    margin: 0;
+  }
+
+  .title {
+    font-weight: normal;
+    margin: 0 0 $small-spacing;
+    font-size: 1.3em;
+  }
+
+  p {
+    font-size: 1em;
+    margin: 0 0 $small-spacing;
   }
 }
 
-.middleman-logo {
-  margin-bottom: 1rem;
-  width: 10rem;
+.skills {
+  background: $secondary-color;
+  padding: $base-spacing;
+  font-size: 0.9em;
+}
+
+.skills-container {
+  display: flex;
+  justify-content: space-between;
+
+  .skills-element {
+    padding: 0 $small-spacing;
+
+    h3 {
+      text-align: center;
+      text-transform: uppercase;
+      border-bottom: 2px solid $third-color;
+      color: $third-color;
+      font-size: 1em;
+      margin-top: 0;
+    }
+  }
+
+  .rating {
+    display: flex;
+  }
+
+  .skill {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .skills-values {
+    list-style: none;
+    margin: 0;
+    padding: 0 $small-spacing;
+  }
+
+  .rating-element {
+    border: 1px solid $third-color;
+    border-radius: 50%;
+    height: 8px;
+    width: 8px;
+    margin-left: $xsmall-spacing;
+
+    &.active {
+      background: $third-color;
+    }
+  }
+}
+
+.category {
+  .category-title {
+    border-bottom: 2px solid $third-color;
+    color: $third-color;
+    font-size: 1em;
+  }
+
+  .experience {
+    display: flex;
+    margin-bottom: $base-spacing;
+  }
+
+  .experience-date {
+    color: $third-color;
+    flex: 0 0 90px;
+
+    p {
+      margin: 0;
+    }
+
+    .date {
+      font-weight: bold;
+    }
+
+    .duration {
+      font-size: 0.9em;
+    }
+  }
+
+  .experience-details {
+    h3,
+    h4 {
+      color: $third-color;
+      margin: 0 0 $xsmall-spacing;
+    }
+
+    h4 {
+      font-weight: normal;
+    }
+
+    p,
+    ul {
+      font-size: 0.9em;
+    }
+  }
+}
+
+.socials {
+  background: $secondary-color;
+  padding: $base-spacing 0;
+
+  .socials-container {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .social-element {
+    align-items: center;
+    display: flex;
+  }
+
+  i {
+    color: $primary-color;
+    font-size: 1.3em;
+    margin-right: $xsmall-spacing;
+  }
+
+  a {
+    color: $primary-color;
+    text-decoration: none;
+  }
+}
+
+div.page-break {
+  page-break-after: always;
 }

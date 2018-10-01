@@ -1,0 +1,32 @@
+- date: '2017'
+  duration: '1.5 ans'
+  title: 'Lead Teacher'
+  company_html: 'Le Wagon Lyon - <a href="https://www.lewagon.com/">www.lewagon.com</a>'
+  body_html: >
+    Depuis janvier 2017, j’assure la majorité des cours au Wagon Lyon.<br/>
+    Le Wagon propose des formations intensives de 9 semaines pour apprendre à développer, maintenir et déployer un produit web.<br/>
+    Les disciplines enseignées sont réparties en plusieurs catégories :
+    <ul>
+      <li>Ruby</li>
+      <li>Programation orientée objet</li>
+      <li>Base de données</li>
+      <li>Font-End (HTML, CSS, JavaScript)</li>
+      <li>Ruby on Rails</li>
+      <li>Projets</li>
+    </ul>
+    Les étudiants sont soit des entrepreneurs qui cherchent a acquérir des compétences techniques pour développer leurs prototypes, soit des personnes ayant besoin de ces compétences pour être meilleurs dans leur métier, ou encore des personnes en reconversion professionnelle, cherchant à s'orienter vers le métier de développeur web.
+- date: '2010'
+  duration: '6 ans'
+  title: 'Co-Fondateur'
+  company_html: 'Craftsmen - <a href="http://graveyard.craftsmen.io/">http://graveyard.craftsmen.io</a>'
+  body_html: >
+    Durant 6 ans, j'ai co fondé une société de développement d’applications webs et mobiles.
+    Nous clients étaient :
+    <ul>
+      <li>Des personnes souhaitant développer un produit web, et nous les accompagnions à la fois sur le côté business, pilotage du produit, mais également sur le développement du premier prototype (MVP), pour leur permettre de valider leur marché.
+      </li>
+      <li>Des équipes techniques ayant besoin de formations de mise à niveau pour une technologie précise ou d’un accompagnement provisoire sur le développement de leur produit.
+      </li>
+    </ul>
+    Ces quelques années nous ont permis d’apprendre plusieurs technologies, en nous apportant le recul nécessaire quant aux choix d’architecture, technologiques, et business à faire.
+

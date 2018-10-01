@@ -1,23 +1,91 @@
----
-title: Welcome to Middleman
----
+<div class="banner">
+  <div class="container">
+    <div class="banner-flex">
+      <img src="<%= data.user.avatar_url %>">
+      <div class="main-informations">
+        <p class="full-name"><%= data.user.full_name %></p>
+        <h2 class="title"><%= data.user.title %></h2>
+        <p><i class="material-icons">info</i><%= data.user.age %></p>
+        <p><i class="material-icons">phone</i><%= data.user.phone %></p>
+        <p><i class="material-icons">mail</i><%= data.user.email %></p>
+      </div>
+    </div>
+  </div>
+</div>
 
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 340" class="middleman-logo" aria-labelledby="middleman-logo__title" role="img">
-  <title id="middleman-logo__title">Middleman</title>
-  <path class="middleman-logo__top-left-bar" fill-opacity=".45" d="M0 40L200 0v30L0 60z"/>
-  <path class="middleman-logo__top-right-bar" fill="#fff" d="M200 0l200 40v20L200 30z"/>
-  <path class="middleman-logo__left-m" fill-opacity=".45" d="M0 78v184l45 5V152l45 83 47-83v129l53 7V52l-57 8-43 83-43-70z"/>
-  <path class="middleman-logo__right-m" fill="#fff" d="M400 78v184l-45 5V152l-45 83-47-83v129l-53 7V52l57 8 43 83 43-70z"/>
-  <path class="middleman-logo__bottom-left-bar" fill-opacity=".45" d="M0 300l200 40v-30L0 280z"/>
-  <path class="middleman-logo__bottom-right-bar" fill="#fff" d="M200 340l200-40v-20l-200 30z"/>
-</svg>
+<div class="skills">
+  <div class="container">
+    <div class="skills-container">
+      <% data.skills.each do |title, values| %>
+        <div class="skills-element" style="flex: 0 0 <%= 100 / data.skills.count %>%;">
+          <h3><%= title %></h3>
+          <ul class="skills-values">
+            <% values.each do |skill, rating| %>
+              <li class="skill">
+                <span class="title"><%= skill %></span>
+                <span class="rating">
+                  <% 5.times do |i| %>
+                    <span class="rating-element <%= 'active' if rating > i %>"></span>
+                  <% end %>
+                </span>
+              </li>
+            <% end %>
+          </ul>
+        </div>
+      <% end %>
+    </div>
+  </div>
+</div>
 
-<h1>
-  Middleman is Running
-</h1>
+<div class="section">
+  <div class="container">
+    <div class="category">
+      <h3 class="category-title">Work experiences</h3>
+      <% data.work.each do |experience| %>
+        <div class="experience">
+          <div class="experience-date">
+            <p class="date"><%= experience.date %></p>
+            <p class="duration"><%= experience.duration %></p>
+          </div>
+          <div class="experience-details">
+            <h3><%= experience.title %></h3>
+            <h4><%= experience.company_html %></h4>
+            <p><%= experience.body_html %></p>
+          </div>
+        </div>
+      <% end %>
+    </div>
 
-<%= link_to(
-  "Read Documentation",
-  "https://middlemanapp.com/basics/templating_language/",
-  target: "_blank"
-) %>
+    <div class="category">
+      <h3 class="category-title">Education</h3>
+      <% data.education.each do |experience| %>
+        <div class="experience">
+          <div class="experience-date">
+            <p class="date"><%= experience.date %></p>
+            <p class="duration"><%= experience.duration %></p>
+          </div>
+          <div class="experience-details">
+            <h3><%= experience.title %></h3>
+            <h4><%= experience.school %></h4>
+            <% if experience.body_html.present? %>
+              <p><%= experience.body_html %></p>
+            <% end %>
+          </div>
+        </div>
+      <% end %>
+    </div>
+  </div>
+</div>
+
+<div class="socials">
+  <div class="container">
+    <div class="socials-container">
+      <% data.user.socials.each do |social| %>
+        <div class="social-element">
+          <%= social.icon_html %>
+          <a href="<%= social.url %>"><%= social.username %></a>
+        </div>
+      <% end %>
+    </div>
+  </div>
+</div>
