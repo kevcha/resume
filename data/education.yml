@@ -1,21 +1,20 @@
-- date: '2007/2010'
-  duration: '3 ans'
-  title: 'Ingénieur Imagerie numérique & Vision'
-  school: 'Télécom Saint Etienne'
-- date: '2008'
-  duration: '6 mois'
-  title: 'Computer Sciences'
-  school: 'University Of Joensuu, Finland'
-  body_html: '<div class="page-break"></div>'
-- date: '2006/2007'
-  duration: '1 an'
-  title: 'Licence physique & applications'
-  school: 'Université Jean Monnet, Saint-Etienne'
-- date: '2004/2006'
-  duration: '2 ans'
-  title: 'DUT Mesures Physiques'
-  school: 'Université Jean Monnet, Saint-Etienne'
-- date: '2004'
-  duration: '3 ans'
-  title: 'Bac S'
-  school: 'Lycée Simone Weil, Saint Priest En Jarez'
+- date: "2007/2010"
+  duration: "3 ans"
+  title: "Ingénieur Imagerie numérique & Vision"
+  school: "Télécom Saint Etienne"
+- date: "2008"
+  duration: "6 mois"
+  title: "Computer Sciences"
+  school: "University Of Joensuu, Finland"
+- date: "2006/2007"
+  duration: "1 an"
+  title: "Licence physique & applications"
+  school: "Université Jean Monnet, Saint-Etienne"
+- date: "2004/2006"
+  duration: "2 ans"
+  title: "DUT Mesures Physiques"
+  school: "Université Jean Monnet, Saint-Etienne"
+- date: "2004"
+  duration: "3 ans"
+  title: "Bac S"
+  school: "Lycée Simone Weil, Saint Priest En Jarez"

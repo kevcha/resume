@@ -1,6 +1,22 @@
-- date: '2017'
-  duration: '1.5 ans'
-  title: 'Lead Teacher'
+- date: "2021"
+  duration: "3 ans"
+  title: "Associé & CTO"
+  company_html: 'WeDressFair - <a href="https://www.wedressfair.fr/">www.wedressfair.fr</a>'
+  body_html: >
+    Depuis octobre 2018, je m'occupe, dans un premier temps en parallèle de mon poste de Lead Teacher au Wagon, et depuis 2021 à plein temps, de la partie technique (site web et outils internes) de WeDressFair.<br/>
+    WeDressFair est un distributeur de marque éthiques d'un point de vue environnemental et social.<br/>
+    Née en avril 2018, nous connaissons une forte croissance depuis (+/- ~200% / an). Pour être capable de maintenir cette croissance et de grandir avec nos marques et nos clients, nous devons continuellement nous adapter aux volumes croissants tout en améliorant notre qualité de service.
+    Nous devons faire face à plusieurs problématiques techniques dont j’en ai la responsabilité :
+    <ul>
+      <li>Maintenance, monitoring, et évolution de l'eshop wedressfair.fr</li>
+      <li>Conception, développement & évolution d'outils d'automatisation interne</li>
+      <li>Conception, développement & évolution d'outils b2b pour nos marques partenaires</li>
+      <li>Conception, développement & évolution d'outils logistiques</li>
+    </ul>
+
+- date: "2017"
+  duration: "3 ans"
+  title: "Associé franchise & Lead Teacher"
   company_html: 'Le Wagon Lyon - <a href="https://www.lewagon.com/">www.lewagon.com</a>'
   body_html: >
     Depuis janvier 2017, j’assure la majorité des cours au Wagon Lyon.<br/>
@@ -15,9 +31,9 @@
       <li>Projets</li>
     </ul>
     Les étudiants sont soit des entrepreneurs qui cherchent a acquérir des compétences techniques pour développer leurs prototypes, soit des personnes ayant besoin de ces compétences pour être meilleurs dans leur métier, ou encore des personnes en reconversion professionnelle, cherchant à s'orienter vers le métier de développeur web.
-- date: '2010'
-  duration: '6 ans'
-  title: 'Co-Fondateur'
+- date: "2010"
+  duration: "6 ans"
+  title: "Co-Fondateur"
   company_html: 'Craftsmen - <a href="http://graveyard.craftsmen.io/">http://graveyard.craftsmen.io</a>'
   body_html: >
     Durant 6 ans, j'ai co fondé une société de développement d’applications webs et mobiles.
@@ -29,4 +45,3 @@
       </li>
     </ul>
     Ces quelques années nous ont permis d’apprendre plusieurs technologies, en nous apportant le recul nécessaire quant aux choix d’architecture, technologiques, et business à faire.
-

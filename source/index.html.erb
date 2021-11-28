@@ -13,7 +13,7 @@
   </div>
 </div>
 
-<div class="skills">
+<div class="skills" style="display: none;">
   <div class="container">
     <div class="skills-container">
       <% data.skills.each do |title, values| %>
@@ -25,7 +25,7 @@
                 <span class="title"><%= skill %></span>
                 <span class="rating">
                   <% 5.times do |i| %>
-                    <span class="rating-element <%= 'active' if rating > i %>"></span>
+                    <span class="rating-element <%= "active" if rating > i %>"></span>
                   <% end %>
                 </span>
               </li>

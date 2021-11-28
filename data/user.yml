@@ -1,16 +1,16 @@
-avatar_url: 'https://avatars2.githubusercontent.com/u/472453?s=460&v=4'
-full_name: 'Kévin Chavanne'
-title: 'Developper / Designer / Entrepreneur'
-age: '33 ans'
-phone: '06 61 00 53 65'
-email: 'kevin.chavanne@gmail.com'
+avatar_url: "https://avatars2.githubusercontent.com/u/472453?s=460&v=4"
+full_name: "Kévin Chavanne"
+title: "Developper / Designer / Entrepreneur"
+age: "36 ans"
+phone: "06 61 00 53 65"
+email: "kevin.chavanne@gmail.com"
 socials:
   - icon_html: '<i class="fab fa-linkedin"></i>'
-    url: 'https://www.linkedin.com/in/kévin-chavanne-13a332158/'
+    url: "https://www.linkedin.com/in/kévin-chavanne-13a332158/"
     username: kévin-chavanne-13a332158
   - icon_html: '<i class="fab fa-github"></i>'
-    url: 'https://github.com/kevcha'
+    url: "https://github.com/kevcha"
     username: kevcha
   - icon_html: '<i class="fab fa-twitter"></i>'
-    url: 'https://twitter.com/kevcha1'
+    url: "https://twitter.com/kevcha1"
     username: kevcha1
